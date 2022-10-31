@@ -1,6 +1,7 @@
 //Elabore um programa que realize a contagem de 1 até 100 e nos múltiplos de 5 imprima apenas M5, caso o número seja múltiplo de 10 imprima apenas M10 na tela, caso seja múltiplo de 15 imprima apenas M15 e caso não seja múltiplo de 5,10 ou 15 imprima o valor atual da variável.
 #include<stdio.h>
 int main(){
+int i=0;
 //primeira parte M5
     for(i=1;i<=100;i++){
     if(i%5==0){
