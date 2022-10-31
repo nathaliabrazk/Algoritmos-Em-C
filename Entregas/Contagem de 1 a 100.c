@@ -1,4 +1,4 @@
-//Elabore um programa que realize a contagem de 1 atÃ© 100 e nos mÃºltiplos de 5 imprima apenas M5, caso o nÃºmero seja mÃºltiplo de 10 imprima apenas M10 na tela, caso seja mÃºltiplo de 15 imprima apenas M15 e caso nÃ£o seja mÃºltiplo de 5,10 ou 15 imprima o valor atual da variÃ¡vel.
+//Elabore um programa que realize a contagem de 1 ate 100 e nos mulltiplos de 5 imprima apenas M5, caso o nummero seja multiplo de 10 imprima apenas M10 na tela, caso seja multiplo de 15 imprima apenas M15 e caso nao seja multiplo de 5,10 ou 15 imprima o valor atual da variavel.
 #include<stdio.h>
 int main(){
 int i=0;
