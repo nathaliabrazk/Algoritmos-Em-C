@@ -1,2 +1,2 @@
-# Algoritmoa-Em-C-AeP
+# Algoritmos-Em-C
  Exercicios propostos
