@@ -3,7 +3,6 @@ por folha, mas acima de 100 folhas esse valor cai para 0,20 por unidade. Dado o 
 de copias, iforme o valor a ser pago*/
 #include<stdio.h>
 int main(){
-    //TERMINAR
     //declaracao de variaveis 
     int quant;
     float valor;
@@ -14,13 +13,13 @@ int main(){
     //validacao
     if(quant<=100){
         //imressao de resultado
-        valor==quant*0,25;
-        printf("Valor a ser pago:%f",valor);
+        valor=quant*0.25;
+        printf("Valor a ser pago:%.2f",valor);
     }
 
     if(quant>100){
-        valor==quant*0,20;
+        valor=quant*0.20;
         //impressao de resultado
-        printf("Valor a ser pago:%f",valor);
+        printf("Valor a ser pago:%.2f",valor);
     }
 }
