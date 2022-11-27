@@ -9,6 +9,7 @@ int main(){
 //declaracao de variaveis
 int i,habitante,filho,mediaFilhos,totalFilhos,percentual;
 float salario,mediaSalario,maiorSalario,salarioSoma,salario_100;
+
 do{
     //SALARIO
     printf("Informe o salario R$:");
@@ -32,12 +33,14 @@ do{
     //FILHOS
     printf("Informe a quantidade de filhos:");
     scanf("%d",&filho);
+    printf("\n");
 
     //media dos filhos
     totalFilhos=filho+totalFilhos;//variavel que armazena a quantidade de filhos
     mediaFilhos=totalFilhos/habitante;//variavel que define a media dos filhos
 
-}while(salario>-100);
+}while(salario>0);
+
 //IMPRESSAO DE DADOS
 printf("Media do salario da populacao:%.2f\n",mediaSalario);
 printf("Media do numero de filhos:%d\n",mediaFilhos);
