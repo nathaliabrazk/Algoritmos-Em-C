@@ -39,9 +39,10 @@ do{
     totalFilhos=filho+totalFilhos;//variavel que armazena a quantidade de filhos
     mediaFilhos=totalFilhos/habitante;//variavel que define a media dos filhos
 
-}while(salario>0);
+}while(salario>=0);
 
 //IMPRESSAO DE DADOS
+printf("\n----------RESULTADOS----------\n");
 printf("Media do salario da populacao:%.2f\n",mediaSalario);
 printf("Media do numero de filhos:%d\n",mediaFilhos);
 printf("Maior Salario:%.3f\n",maiorSalario);
