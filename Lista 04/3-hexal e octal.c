@@ -8,7 +8,7 @@ scanf("%d",&decimal);
 
 printf("\n-----OPCOES-----\n");
 printf("Conversao para hexadecimal digite 1\nConversao para octal digite 2\n");
-prntf("Digite a opcao desejada:");
+printf("Digite a opcao desejada:");
 scanf("%d",&opcao);
 
 switch (opcao){
