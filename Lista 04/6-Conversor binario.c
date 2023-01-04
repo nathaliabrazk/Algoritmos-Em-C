@@ -11,14 +11,17 @@ if(numero==0){
 }
 }
 int main(){
-    int numero,i;
+    int numero;
     printf("Informe um valor decimal:");
     scanf("%d",&numero);
 
     for(numero=0;numero%2==0;numero++){
-    if(numero %2==0){    
-        printf("Informe um valor decimal:");
+    if(numero %2==1){    
+        printf("Valor valido!\n");
+    }else{
+        printf("Valor invalido, digite um valor decimal:");
         scanf("%d",&numero);
+       
     }
     }
     binario(numero);
