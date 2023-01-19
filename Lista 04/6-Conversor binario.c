@@ -15,16 +15,11 @@ int main(){
     printf("Informe um valor decimal:");
     scanf("%d",&numero);
 
-    for(numero=0;numero%2==0;numero++){
-    if(numero %2==1){    
-        printf("Valor valido!\n");
-    }else{
-        printf("Valor invalido, digite um valor decimal:");
-        scanf("%d",&numero);
-       
-    }
-    }
-    binario(numero);
+     binario(numero);
 
     return 0;
-}
+    }
+    
+   
+
+  

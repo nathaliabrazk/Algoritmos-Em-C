@@ -1,5 +1,5 @@
 /*Fazer um programa que solicita um número decimal e imprime o
-correspondente em hexa, octal e binario.*/
+correspondente em hexadecimal, octal e binario.*/
 #include<stdio.h>
 #include<math.h>
 
