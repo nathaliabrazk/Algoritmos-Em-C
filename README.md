@@ -1,2 +1,2 @@
 # Algoritmos-Em-C
- Exercicios propostos
+ Exercicios propostos pela disciplina Algoritmos e Programação
